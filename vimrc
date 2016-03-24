@@ -16,3 +16,5 @@ set wildignore+=*.pyc,*.git/,tags,__pycache__/ " Ignore these file endings when 
 set wildmenu " Show matches above commandline when pressing TAB.
 
 set hlsearch " Highlight search results.
+set nocompatible
+
