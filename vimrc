@@ -1,6 +1,6 @@
 set smartindent
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 
 set nu
@@ -18,3 +18,4 @@ set wildmenu " Show matches above commandline when pressing TAB.
 set hlsearch " Highlight search results.
 set nocompatible
 
+set noswapfile
