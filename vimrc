@@ -29,17 +29,6 @@ set showmatch
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
-call plug#begin()
-
-" add all your plugins here (note older versions of Vundle
-" used Bundle instead of Plugin)
-
-Plug 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Plug 'vim-syntastic/syntastic'
-Plug 'nvie/vim-flake8'
-
-call plug#end()
-
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
